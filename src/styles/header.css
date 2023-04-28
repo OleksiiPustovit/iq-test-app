@@ -1,0 +1,108 @@
+body {
+  background-color: #181818;
+  color: #fff;
+}
+
+.lock {
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+}
+
+.header {
+  background-color: #181818;
+}
+
+.header__menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header__menu-btn--open {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.header__menu-btn--close {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.header__menu-btn-img {
+  width: 16px;
+  height: 16px;
+}
+
+.menu {
+  display: none;
+}
+
+.menu--active {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  overflow-y: auto;
+  background-color: #181818;
+  z-index: 1;
+}
+
+.menu__nav {
+  display: flex;
+  margin-top: 100px;
+}
+
+.menu__nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  margin-top: 80px;
+  margin-left: 24px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.37;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.menu__nav-item {
+  color: #fff;
+}
+
+.menu__nav-item:hover,
+.menu__nav-item--active,
+.menu__nav-item:focus {
+  color: #F4CE0C;
+  text-decoration: underline;
+}
+
+.header__logo-img {
+  width: 48px;
+  height: 48px;
+}
+
+.header__logo-title {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFC700;
+}

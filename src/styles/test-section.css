@@ -1,0 +1,32 @@
+.test-section {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.test-section__text {
+  margin-top: 38px;
+  text-align: center;
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  letter-spacing: 0.05em;
+
+  color: #272727;
+}
+
+.test-section__text-bold {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.test-section__img {
+  margin: 0 auto;
+  margin-top: 38px;
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IQ-test</title>
+  <link rel="shortcut icon" href="images/brain.png">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/top-section.css">
+  <link rel="stylesheet" href="styles/info-section.css">
+  <link rel="stylesheet" href="styles/test-section.css">
+  <link rel="stylesheet" href="styles/button.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=PT+Serif:wght@400;700&family=Yeseva+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__menu">
+        <button type="button" class="header__menu-btn--open">
+          <img 
+            class="header__menu-btn-img"
+            src="images/menu.png" 
+            alt="menu"
+          >
+        </button>
+        <div class="menu">
+          <button type="button" class="header__menu-btn--close">
+            <img
+              class="header__menu-btn-img"
+              src="images/cross.png" 
+              alt="close"
+            >
+          </button>
+          <nav class="menu__nav">
+            <ul class="menu__nav-list">
+              <li class="menu__nav-item"><a class="menu__nav-link" href="#top-section">ГЛАВНАЯ</a></li>
+              <li class="menu__nav-item"><a class="menu__nav-link" href="#info-section">ИНФОРМАЦИЯ О ТЕСТЕ</a></li>
+              <li class="menu__nav-item"><a class="menu__nav-link" href="#test-section">ПРОЙТИ ТЕСТ</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section id="top-section" class="top-section">
+      <div class="container">
+        <h2 class="top-section__pretitle">Пройти точный и быстрый тест</h2>
+
+        <h1 class="top-section__title">тест на определения iq</h1>
+      
+
+      <img 
+        class="top-section__img"
+        src="images/brain.png" 
+        alt="brain image"
+      >
+
+      <button type="button" class="primary-button">
+        <a href="/src/test-page.html">Пройти тест</a>
+      </button>
+      <p class="top-section__description">
+        <span class="top-section__description--special" >
+          И получите рекомендации 
+          по развитию своего интеллекта 
+          <br>
+        </span>
+        и улучшению финансового благосостояния и личной жизни
+      </p>
+
+      <div class="top-section__detailed">
+        <a href="#info-section">
+          <img 
+            class="top-section__detailed-img"
+            src="images/arrow.png" 
+            alt="arrow"
+          >
+          <p class="top-section__detailed-text">
+            Подробнее
+          </p>
+        </a>
+      </div>
+    </section>
+
+    <section id="info-section" class="info-section">
+      <div class="container">
+
+        
+        
+          <q class="info-section__text">
+            <div class="info-section__quote-top">
+              <img 
+                  class="info-section__quote-img"
+                  src="./images/quote_top.png" 
+                  alt="quote_top"
+                >
+            </div>
+            
+            <p>
+              Профессиональный
+            <br>
+            IQ-тест позволяет не только определить коэффициент вашего интеллекта,
+            но и выработать список рекомендаций для повышения этого показателя.
+            </p>
+            <div class="info-section__quote-bottom">
+              <img
+              class="info-section__quote-img"
+              src="./images/quote_bottom.png" 
+              alt="quote_bottom"
+            >
+            </div>
+          </q>
+          
+        </div>
+    </section>
+    <section id="test-section" class="test-section">
+      <div class="container">
+        <p class="test-section__text">
+          Также по результатам теста 
+          <br>
+          <b class="test-section__text-bold">вы получите</b> подробные <b class="test-section__text-bold">советы</b> по определению наиболее перспективной 
+          <b class="test-section__text-bold">для вашего типа</b> <b>интеллекта</b> <b class="">сферы деятельности</b>, 
+          которая принесет вам скорейший финансовый результат.
+        </p>
+
+        <img 
+          class="test-section__img"
+          src="images/brain-test.png" 
+          alt="brain"
+        >
+        <button type="button" class="primary-button">
+          <a href="/src/test-page.html">Пройти тест</a>
+        </button>
+      </div>
+    </section>
+    <section class="bottom-section">
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="footer__title">
+        Прохождение теста займет у вас не <b class="footer-title-special">более 12 минут</b>, 
+        а его <b class="footer-title-bold">результаты</b> <b class="footer-title-special">вы сможете использовать всю жизнь.</b> 
+      </p>
+      <p class="footer__subtitle">
+        Профессиональная интерпретация и детально <b class="footer__subtitle-bold">проработанные рекомендации</b> 
+        позволят вам качественно <b class="footer__subtitle-bold">
+          изменить все аспекты своей жизни:
+        </b> 
+        от финансового до любовного.
+      </p>
+      <img
+        class="footer__img--right"
+        src="images/lightning_right.png" 
+        alt="lighting"
+      >
+      <img 
+        class="footer__img--left"
+        src="images/lightning_left.png" 
+        alt="lighting"
+      >
+
+      <button type="button" class="secondary-button">
+        <a href="/src/test-page.html">Пройти тест</a>
+      </button>
+      <p class="footer-copyright">
+        © 2019
+      </p>
+    </div>
+  </footer>
+
+  <script src="script/header-menu.js"></script>
+</body>
+</html>

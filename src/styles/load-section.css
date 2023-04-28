@@ -1,0 +1,46 @@
+.load__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.load__section--invisible {
+  display: none;
+}
+
+.load__section-title {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  margin-bottom: 50px;
+}
+
+.load__section-img {
+  width: 65px;
+  height: 65px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.load__section-description {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  text-align: center;
+}

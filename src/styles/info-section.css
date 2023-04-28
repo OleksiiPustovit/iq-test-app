@@ -1,0 +1,41 @@
+.info-section {
+  position: relative;
+  background-image: url(../images/background1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 350px;
+}
+
+.info-section__quote-top {
+  margin: 23px;
+}
+
+.info-section__quote-bottom {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 23px;
+}
+
+.info-section__text {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #FFFFFF;
+}
+
+.info-section__text::before,
+.info-section__text::after {
+  content: '';
+}

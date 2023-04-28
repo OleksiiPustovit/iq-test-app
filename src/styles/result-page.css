@@ -1,0 +1,145 @@
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/background.png");
+
+  position: relative;
+}
+
+.result__title {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 16px;
+
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  margin-bottom: 12px;
+  margin-top: 30px;
+}
+
+.result__description {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  text-align: center;
+
+  margin-bottom: 22px;
+}
+
+.special {
+  text-decoration: underline;
+}
+
+.result__subtitle {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #3BDE7C;
+
+  margin-bottom: 12px;
+}
+
+.result__notification {
+  background-color: #1C2741;
+  padding: 15px;
+  border-radius: 6px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 14px;
+
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.result__timer {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  
+  color: #3BDE7C;
+  margin-bottom: 10px;
+}
+
+.timer {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #3BDE7C;
+}
+
+.result__button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #EB1B00;
+  color: #FFFFFF;
+  border-radius: 5px;
+  padding: 30px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 5;
+}
+
+.result__button-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  padding: 15px;
+
+}
+
+.result__button-img {
+  width: 30px;
+  height: 30px;
+}
+
+.result__img--right {
+  position: absolute;
+  right: 0;
+  top: 300px;
+  z-index: 0;
+}
+
+.result__img--left {
+  position: absolute;
+  left: 0;
+  top: 300px;
+  z-index: 0;
+}

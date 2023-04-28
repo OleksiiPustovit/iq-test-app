@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IQ-test</title>
+  <link rel="shortcut icon" href="images/brain.png">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/top-section.css">
+  <link rel="stylesheet" href="styles/info-section.css">
+  <link rel="stylesheet" href="styles/test-section.css">
+  <link rel="stylesheet" href="styles/button.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/main-test.css">
+  <link rel="stylesheet" href="styles/progress-bar.css">
+  <link rel="stylesheet" href="styles/load-section.css">
+  <link rel="stylesheet" href="styles/result-page.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=PT+Serif:wght@400;700&family=Yeseva+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__menu">
+        <button type="button" class="header__menu-btn--open">
+          <img 
+            class="header__menu-btn-img"
+            src="images/menu.png" 
+            alt="menu"
+          >
+        </button>
+        <div class="header__logo">
+          <img
+            class="header__logo-img" 
+            src="images/brain.png" 
+            alt="logo"
+          >
+        </div>
+        <div class="header__title">
+          <h1 class="header__logo-title">
+            Готово!
+           </h1>
+        </div>
+        <div class="menu">
+          <button type="button" class="header__menu-btn--close">
+            <img
+              class="header__menu-btn-img"
+              src="images/cross.png" 
+              alt="close"
+            >
+          </button>
+          <nav class="menu__nav">
+            <ul class="menu__nav-list">
+              <li class="menu__nav-item"><a class="menu__nav-link" href="/src/index.html">ГЛАВНАЯ</a></li>
+              <li class="menu__nav-item"><a class="menu__nav-link" href="/src/index.html#info-section">ИНФОРМАЦИЯ О ТЕСТЕ</a></li>
+              <li class="menu__nav-item"><a class="menu__nav-link" href="/src/index.html#test-section">ПРОЙТИ ТЕСТ</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="result">
+    <div class="container">
+      <h1 class="result__title">
+        Ваш результат рассчитан: 
+      </h1>
+      <p class="result__description">
+        <span class="special">Вы относитесь к 3%</span> респондентов, чей уровень интеллекта более чем на 
+15 пунктов отличается от среднего в большую или меньшую сторону! 
+      </p>
+
+      <h2 class="result__subtitle">
+        Скорее получите свой результат!
+      </h2>
+      <p class="result__notification">
+        В целях защиты персональных 
+данных результат теста, их подробная интерпретация и рекомендации доступны в виде голосового сообщения по звонку с вашего мобильного телефона
+      </p>
+
+      <p class="result__timer">
+        Звоните скорее, запись доступна всего <br>
+        <span class="timer">
+          10:00
+        </span>
+        минут 
+      </p>
+
+      <button class="result__button">
+        <img
+          class="result__button-img"
+          src="./images/call.png" 
+          alt="phone"
+        >
+        <span class="result__button-text">
+          Позвонить и прослушать
+          результат 
+        </span>
+      </button>
+
+      <img
+      class="result__img--right"
+      src="images/lightning_right.png" 
+      alt="lighting"
+      >
+      <img 
+        class="result__img--left"
+        src="images/lightning_left.png" 
+        alt="lighting"
+      >
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p class="footer-copyright">
+      TERMENI SI CONDITII: ACESTA ESTE UN SERVICIU DE DIVERTISMENT. PRIN FOLOSIREA LUI DECLARATI CA AVETI 18 ANI IMPLINITI, 
+    </p>
+  </footer>
+
+  <script src="script/header-menu.js"></script>
+  <script src="script/test.js"></script>
+  <script src="script/result.js"></script>
+</body>
+</html>
