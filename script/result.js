@@ -27,7 +27,6 @@ document.querySelector('.result__button').addEventListener('click', () => {
         document.querySelector('.result__eye-color').innerHTML = data.eye_color,
         document.querySelector('.result__birth-year').innerHTML = data.birth_year,
         document.querySelector('.result__gender').innerHTML = data.gender
-        
         )
       );
 });
