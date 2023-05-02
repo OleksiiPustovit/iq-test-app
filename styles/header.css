@@ -11,7 +11,6 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-
 }
 
 .header {
@@ -43,6 +42,13 @@ body {
 .header__menu-btn-img {
   width: 16px;
   height: 16px;
+}
+
+@media (min-width: 767px) {
+  .header__menu-btn-img {
+    width: 25px;
+    height: 25px;
+  }
 }
 
 .menu {

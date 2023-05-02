@@ -7,26 +7,6 @@
   height: 100vh;
 }
 
-.progress-bar {
-  width: 80%;
-  height: 10px;
-  background: #F2F3F3;
-  border-radius: 10px;
-  margin-top: 20px;
-  margin: 0 auto;
-  position: relative;
-  
-}
-
-.progress-bar__item {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  background: #3BDE7C;
-  border-radius: 10px;
-}
-
 .test__form {
   display: flex;
   flex-direction: column;
@@ -61,7 +41,6 @@
   width: 100%;
   display: flex;
   align-items: center;
-
   
   background: rgba(242,243,243,.15);
   margin-bottom: 10px;
@@ -241,4 +220,31 @@
   opacity: 0.15;
   margin: 0 auto;
   margin-top: 24px;
+}
+
+@media (min-width: 767px) {
+  .test__answer-input {
+    width: 30px;
+    height: 30px;
+  }
+
+  .colored-squares {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+  }
+
+  .test__question-figure-img {
+    height: 300px;
+  }
+
+  .test__answer-figure {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .figure {
+    max-width: 500px;
+    margin: 0 auto;
+  }
 }
